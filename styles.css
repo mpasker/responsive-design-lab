@@ -15,15 +15,7 @@ body html {
   width: 10em;
   height: 2em;
 }
-.socialmedia-nav {
-  height: 1.5em;
-  width: 1.5em;
-}
-#socialmedia-ul {
-  background-color: #f1f2f2;
-}
 #navBarLinks {
-  margin-left: 38em;
   font-family: 'Work Sans', sans-serif;
   font-weight: 600;
   text-transform: uppercase;
@@ -31,6 +23,14 @@ body html {
 #navBarLinks a {
   text-decoration: none;
   color: darkgrey;
+}
+.socialmedia-link {
+  background-color: lightgrey;
+  text-decoration: none;
+}
+.socialmedia-link img {
+  height: 1.5em;
+  width: 1.5em;
 }
 #about {
   background-image: url('home/assets/coversharks-web-hero.jpg');
@@ -62,7 +62,7 @@ body html {
   letter-spacing: 0.1em;
   line-height: 1.4em;
 }
-#youin #moreBtn {
+#youin button {
   text-transform: uppercase;
   padding: 1em 3em 1em 3em;
   margin-top: 1em;
@@ -103,7 +103,7 @@ body html {
   font-weight: 800;
   word-spacing: -0.1em;
 }
-#register #registerBtn {
+#register button {
   text-transform: uppercase;
   padding: 1em 3em 1em 3em;
   margin-top: 1em;
@@ -121,11 +121,30 @@ body html {
 }
 #howtoDescribe {
   margin: 6em 0 0 6em;
+  text-align: center;
 }
 #howtoDescribe h1 {
   color: #1b93c8;
   font-family: 'Work Sans', sans-serif;
   font-weight: 800;
-  text-align: justify;
-  word-spacing: -0.2em;
+  margin-bottom: 1em;
+  /*word-spacing: -0.2em;*/
+}
+#howtoDescribe button {
+  text-transform: uppercase;
+  padding: 1em 3em 1em 3em;
+  margin-top: 1em;
+  font-family: 'Roboto Condensed', sans-serif;
+  letter-spacing: 0.2em;
+  background-color: white;
+  color: darkgrey;
+}
+#howtoDescribe h4 {
+  font-family: 'Work Sans', sans-serif;
+  color: white;
+  letter-spacing: 0.1em;
+  font-weight: 200;
+}
+#tilted-phone img {
+  zoom: 25%;
 }

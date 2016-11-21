@@ -33,22 +33,21 @@ body {
     width: 10em;
     height: 2em;
 }
-.socialmedia-nav {
-    height: 1.5em;
-    width: 1.5em;
-}
-#socialmedia-ul {
-    background-color: #f1f2f2;
-}
-    
 #navBarLinks {
-    margin-left: 38em;
     font-family: @font-1;
     font-weight: 600;
     text-transform: uppercase;
     a {
         text-decoration: none;
         color: darkgrey;
+    }
+}
+.socialmedia-link {
+    background-color: lightgrey;
+    text-decoration: none;
+    img {
+        height: 1.5em;
+        width: 1.5em;
     }
 }
 #about {
@@ -76,7 +75,7 @@ body {
         letter-spacing: 0.1em;
         line-height: 1.4em;
     }
-    #moreBtn {
+    button {
         .button-format;
         background-color: white;
         color: darkgrey;
@@ -109,7 +108,7 @@ body {
         font-weight: 800;
         word-spacing: -0.1em;
     }
-    #registerBtn {
+    button {
         .button-format;
         background-color: #3a3a3c;
     }
@@ -120,11 +119,28 @@ body {
 }
 #howtoDescribe {
     margin: 6em 0 0 6em;
+    text-align: center;
     h1 {
         color: #1b93c8;
         font-family: @font-1;
         font-weight: 800;
-        text-align: justify;
-        word-spacing: -0.2em;
+        margin-bottom: 1em;
+        /*word-spacing: -0.2em;*/
+    }
+    button {
+        .button-format;
+        background-color: white;
+        color: darkgrey;
+    }
+    h4 {
+        font-family: @font-1;
+        color: white;
+        letter-spacing: 0.1em;
+        font-weight: 200;
+    }
+}
+#tilted-phone {
+    img {
+        zoom: 25%;
     }
 }

@@ -1,0 +1,130 @@
+.background-cover() {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    width: auto;
+    height: auto;
+}
+.button-format() {
+    text-transform: uppercase;
+    padding: 1em 3em 1em 3em;
+    margin-top: 1em;
+    font-family: @font-2;
+    letter-spacing: 0.2em;
+}
+
+@font-1: 'Work Sans', sans-serif;
+@font-2: 'Roboto Condensed', sans-serif;
+
+body {
+    box-sizing: border-box;
+    padding-top: 70px;
+    html {
+        height: 100%;
+        width: 100%;
+    }
+}
+.navbar-default {
+    background-color: white;
+    border: none;
+    height: 60px;
+}
+.nav-logo {
+    width: 10em;
+    height: 2em;
+}
+.socialmedia-nav {
+    height: 1.5em;
+    width: 1.5em;
+}
+#socialmedia-ul {
+    background-color: #f1f2f2;
+}
+    
+#navBarLinks {
+    margin-left: 38em;
+    font-family: @font-1;
+    font-weight: 600;
+    text-transform: uppercase;
+    a {
+        text-decoration: none;
+        color: darkgrey;
+    }
+}
+#about {
+    background-image: url('home/assets/coversharks-web-hero.jpg');
+    .background-cover;
+}
+#youin {
+    text-align: center;
+    margin: 6em 0 0 6em;
+    h1 {
+        font-family: @font-1;
+        font-weight: 800;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        color: white;
+        background-color: #1b93c8;
+        padding: 0.5em 0 0.5em 0;
+    }
+    h4 {
+        font-family: @font-1;
+        font-weight: 300;
+        color: white;
+        margin-top: 2em;
+        text-align: justify;
+        letter-spacing: 0.1em;
+        line-height: 1.4em;
+    }
+    #moreBtn {
+        .button-format;
+        background-color: white;
+        color: darkgrey;
+    }
+}
+#herophone {
+    margin: 6em 0 0 6em;
+}
+#yeti {
+    margin: 6em 0 0 6em;
+    align-content: center;
+    img {
+    zoom: 80%;
+    }
+}
+#register {
+    #yeti;
+    text-align: justify;
+    word-spacing: -0.1em;
+    h4 {
+        font-family: @font-2;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: darkgrey;
+        letter-spacing: 0.1em;
+    }
+    h1 {
+        color: #29bb96;
+        font-family: @font-1;
+        font-weight: 800;
+        word-spacing: -0.1em;
+    }
+    #registerBtn {
+        .button-format;
+        background-color: #3a3a3c;
+    }
+}
+#how-to {
+    .background-cover;
+    background-image: url('home/assets/bkgrnd.svg');
+}
+#howtoDescribe {
+    margin: 6em 0 0 6em;
+    h1 {
+        color: #1b93c8;
+        font-family: @font-1;
+        font-weight: 800;
+        text-align: justify;
+        word-spacing: -0.2em;
+    }
+}

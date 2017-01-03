@@ -56,7 +56,7 @@ body {
 }
 #youin {
     text-align: center;
-    margin: 6em 0 0 6em;
+    /*margin: 6em 0 0 6em;*/
     h1 {
         font-family: @font-1;
         font-weight: 800;
@@ -82,13 +82,20 @@ body {
     }
 }
 #herophone {
-    margin: 6em 0 0 6em;
+    /*margin: 6em 0 0 6em;*/
+    height: 100%;
+    width: 100%;
+    img {
+        height: 50%;
+        width: 50%;
+    }
 }
 #yeti {
     margin: 6em 0 0 6em;
     align-content: center;
     img {
     zoom: 80%;
+    overflow: hidden;
     }
 }
 #register {
@@ -118,7 +125,7 @@ body {
     background-image: url('home/assets/bkgrnd.svg');
 }
 #howtoDescribe {
-    margin: 6em 0 0 6em;
+    margin: 6em 0 2em 6em;
     text-align: center;
     h1 {
         color: #1b93c8;
@@ -143,4 +150,12 @@ body {
     img {
         zoom: 25%;
     }
+}
+#overview-header {
+    color: #1b93c8;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: @font-1;
+    font-weight: 800;
+    letter-spacing: 0.1em;
 }
